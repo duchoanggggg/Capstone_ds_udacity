@@ -19,4 +19,4 @@
 2. Run demo 'python Movies_recommendation.py' and follow the link to local web and fill out the survey to get the recommendation.
 
 ## Results
-  - For historical watching users, there is an outstanding result from Info+ Rating input, the reason is having more data the models would predict better, this input together with Info Only result is far more better than Rating Only. However, the most significant result is Cold￾start. 
+  - For historical watching users, there is an outstanding result from Info+ Rating input, the reason is having more data the models would predict better, this input together with Info Only result is far more better than Rating Only. However, the most significant result is Cold-start. 
