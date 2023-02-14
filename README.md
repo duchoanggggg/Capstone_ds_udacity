@@ -1,4 +1,8 @@
 # MBTI_based-Movie-Recommendation Testing Instruction
+## Project Scope
+  - In this project, I propose to use Myer-Briggs Type Indicator (MBTI) in movie recommendation system to individualize recommendations by user-user collaborative filtering. In personality typology, MBTI is an introspective self-report questionnaire indicating differing psychological preferences in how people perceive the world and make decisions. The test attempts to assign 4 categories: Introverted vs Extroverted, Sensing vs INtuition, Thinking vs Feeling, Judging vs Perceiving. One letter from each category is taken to produce a for letter list such as INFP. 
+  - Metrics: In this project, I use MAE score and RMSE score to evaluate the recommendation.
+
 ## Folder description
 - data: contains raw and cleaned data for project
   + Questionaires.xlsx: survey raw data
@@ -13,3 +17,6 @@
 ## System demo
 1. Install libraries from 'pip install -r requirements.txt'
 2. Run demo 'python Movies_recommendation.py' and follow the link to local web and fill out the survey to get the recommendation.
+
+## Results
+  - For historical watching users, there is an outstanding result from Info+ Rating input, the reason is having more data the models would predict better, this input together with Info Only result is far more better than Rating Only. However, the most significant result is Cold￾start. 
